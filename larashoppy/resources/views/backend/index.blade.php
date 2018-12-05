@@ -509,8 +509,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </div>
                     <div class="clearfix"> </div>
                 </div>
-                <!--main page chit chating end here-->
-                <!--main page chart start here-->
+                <!--main pages chit chating end here-->
+                <!--main pages chart start here-->
                 <div class="main-page-charts">
                     <div class="main-page-chart-layer1">
                         <div class="col-md-6 chart-layer1-left">
@@ -565,7 +565,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         <div class="clearfix"> </div>
                     </div>
                 </div>
-                <!--main page chart layer2-->
+                <!--main pages chart layer2-->
                 <div class="chart-layer-2">
 
                     <div class="col-md-6 chart-layer2-right">
@@ -836,12 +836,12 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     $(".sidebar-icon").click(function() {
         if (toggle)
         {
-            $(".page-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
+            $(".pages-container").addClass("sidebar-collapsed").removeClass("sidebar-collapsed-back");
             $("#menu span").css({"position":"absolute"});
         }
         else
         {
-            $(".page-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
+            $(".pages-container").removeClass("sidebar-collapsed").addClass("sidebar-collapsed-back");
             setTimeout(function() {
                 $("#menu span").css({"position":"relative"});
             }, 400);
