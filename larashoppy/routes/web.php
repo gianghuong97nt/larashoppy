@@ -11,7 +11,7 @@
 |
 */
 
-Route::get('/', 'Backend/Index@index');
+Route::get('/', 'Frontend\Index@index');
 
-Route::get('backend', 'Backend/Index@index');
+Route::get('/backend', 'Backend\Index@index');
 
