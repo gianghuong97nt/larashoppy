@@ -11,6 +11,7 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'Backend/Index@index');
+
+Route::get('backend', 'Backend/Index@index');
+
